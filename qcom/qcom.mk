@@ -52,5 +52,5 @@ LOCAL_POST_INSTALL_CMD := \
         ln -sf /system/vendor/firmware/tzapps.mdt $(TARGET_OUT)/etc/firmware/tzapps.mdt;
 include $(BUILD_PREBUILT)
 
-$(call inherit-product, vendor/asus/flo/proprietary/qcom/device-partial.mk)
+$(call inherit-product, vendor/asus/flo/qcom/device-partial.mk)
 endif
