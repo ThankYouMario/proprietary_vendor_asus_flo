@@ -43,11 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/flo/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/flo/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/asus/flo/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
-    vendor/asus/flo/proprietary/vendor/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
-    vendor/asus/flo/proprietary/vendor/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02 \
-    vendor/asus/flo/proprietary/vendor/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
-    vendor/asus/flo/proprietary/vendor/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -90,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/asus/flo/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/asus/flo/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/asus/flo/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/asus/flo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/asus/flo/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/asus/flo/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
@@ -126,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/flo/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/asus/flo/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/asus/flo/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/asus/flo/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/asus/flo/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/flo/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
@@ -179,6 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
     vendor/asus/flo/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
     vendor/asus/flo/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
+    vendor/asus/flo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/flo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/flo/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
     vendor/asus/flo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -205,13 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/asus/flo/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/asus/flo/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/asus/flo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/asus/flo/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/asus/flo/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
-    vendor/asus/flo/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/asus/flo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/asus/flo/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/asus/flo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/asus/flo/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/asus/flo/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/asus/flo/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar
+    vendor/asus/flo/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/asus/flo/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/asus/flo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
