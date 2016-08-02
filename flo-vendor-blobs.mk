@@ -50,6 +50,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/asus/flo/proprietary/etc/firmware/vidc.b00:system/etc/firmware/tzapps.b00 \
+    vendor/asus/flo/proprietary/etc/firmware/vidc.b01:system/etc/firmware/tzapps.b01 \
+    vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/tzapps.b02 \
+    vendor/asus/flo/proprietary/etc/firmware/vidc.b03:system/etc/firmware/tzapps.b03 \
+    vendor/asus/flo/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/tzapps.mdt \
     vendor/asus/flo/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/flo/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/asus/flo/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
